@@ -13,7 +13,7 @@ public class conn {
     public conn() {
         try {
             // --- INITIALIZED THE INSTANCE VARIABLES ---
-            // Replace "Root" with your actual MySQL password
+
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "Root@123");
             statement = connection.createStatement();
 
