@@ -14,7 +14,7 @@ public class conn {
         try {
             // --- INITIALIZED THE INSTANCE VARIABLES ---
 
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "****");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "*****");
             statement = connection.createStatement();
 
         } catch (Exception e) {
